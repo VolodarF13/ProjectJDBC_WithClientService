@@ -1,0 +1,15 @@
+*.class
+
+target/
+build/
+out/
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+*.mv.db
+*.trace.db
+
+*.log
