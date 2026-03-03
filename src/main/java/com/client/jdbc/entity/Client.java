@@ -1,5 +1,4 @@
-package entity;
-
+package com.client.jdbc.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

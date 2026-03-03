@@ -1,4 +1,4 @@
-package entity;
+package com.client.jdbc.entity;
 
 public class YoungestEldestWorker {
     private String age;
@@ -37,7 +37,7 @@ public class YoungestEldestWorker {
 
     @Override
     public String toString() {
-        return "entity.YoungestEldestWorker{" +
+        return "com.client.jdbc.entity.YoungestEldestWorker{" +
                 "age='" + age + '\'' +
                 ", name='" + name + '\'' +
                 ", birthday='" + birthday + '\'' +

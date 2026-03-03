@@ -1,4 +1,4 @@
-package entity;
+package com.client.jdbc.entity;
 
 public class PriceOfEachProject {
     private String project;
@@ -27,7 +27,7 @@ public class PriceOfEachProject {
 
     @Override
     public String toString() {
-        return "entity.PriceOfEachProject{" +
+        return "com.client.jdbc.entity.PriceOfEachProject{" +
                 "project='" + project + '\'' +
                 ", price=" + price +
                 '}';

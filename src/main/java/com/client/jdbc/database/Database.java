@@ -1,10 +1,9 @@
-package database;
-
-import org.flywaydb.core.Flyway;
+package com.client.jdbc.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import org.flywaydb.core.Flyway;
 
 public class Database {
     private static final Database INSTANCE = new Database();
@@ -16,11 +15,11 @@ public class Database {
     private Database() {
         Flyway flyway = Flyway.configure()
                 .dataSource(DATABASE_URL, DATABASE_USER, DATABASE_PASS)
+                .locations("filesystem:sql")
                 .load();
 
         flyway.migrate();
     }
-
 
     public static Database getInstance() {
         return INSTANCE;

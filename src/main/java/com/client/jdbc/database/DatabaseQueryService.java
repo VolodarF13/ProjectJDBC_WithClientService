@@ -1,6 +1,6 @@
-package database;
+package com.client.jdbc.database;
 
-import entity.*;
+import com.client.jdbc.entity.*;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;

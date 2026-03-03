@@ -1,4 +1,4 @@
-package entity;
+package com.client.jdbc.entity;
 
 public class MaxProjectCountClient {
     private String name;
@@ -27,7 +27,7 @@ public class MaxProjectCountClient {
 
     @Override
     public String toString() {
-        return "entity.MaxProjectCountClient{" +
+        return "com.client.jdbc.entity.MaxProjectCountClient{" +
                 "name='" + name + '\'' +
                 ", projectCount=" + projectCount +
                 '}';

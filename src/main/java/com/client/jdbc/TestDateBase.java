@@ -1,5 +1,7 @@
-import database.DatabaseQueryService;
-import entity.*;
+package com.client.jdbc;
+
+import com.client.jdbc.database.DatabaseQueryService;
+import com.client.jdbc.entity.*;
 
 import java.util.List;
 

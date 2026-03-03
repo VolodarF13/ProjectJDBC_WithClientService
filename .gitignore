@@ -3,11 +3,13 @@
 target/
 build/
 out/
-
+.gradle/
 .idea/
+
 *.iml
 *.iws
 *.ipr
+
 
 *.mv.db
 *.trace.db

@@ -1,4 +1,4 @@
-package entity;
+package com.client.jdbc.entity;
 
 public class LongestProject {
     private String name;
@@ -27,7 +27,7 @@ public class LongestProject {
 
     @Override
     public String toString() {
-        return "entity.LongestProject{" +
+        return "com.client.jdbc.entity.LongestProject{" +
                 "name='" + name + '\'' +
                 ", month=" + month +
                 '}';

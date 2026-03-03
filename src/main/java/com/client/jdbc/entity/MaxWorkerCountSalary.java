@@ -1,4 +1,4 @@
-package entity;
+package com.client.jdbc.entity;
 
 public class MaxWorkerCountSalary {
     private String name;
@@ -27,7 +27,7 @@ public class MaxWorkerCountSalary {
 
     @Override
     public String toString() {
-        return "entity.MaxWorkerCountSalary{" +
+        return "com.client.jdbc.entity.MaxWorkerCountSalary{" +
                 "name='" + name + '\'' +
                 ", salary=" + salary +
                 '}';
