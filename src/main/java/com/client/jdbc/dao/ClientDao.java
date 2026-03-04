@@ -1,9 +1,9 @@
-package com.client.jdbc.service;
+package com.client.jdbc.dao;
 
 import com.client.jdbc.entity.Client;
 import java.util.List;
 
-public interface ClientService {
+public interface ClientDao {
 
     long create(String name);
 
