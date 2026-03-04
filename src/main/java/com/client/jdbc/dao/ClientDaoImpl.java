@@ -2,7 +2,6 @@ package com.client.jdbc.dao;
 
 import com.client.jdbc.database.Database;
 import com.client.jdbc.entity.Client;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
